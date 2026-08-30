@@ -80,7 +80,7 @@ export default function Home() {
                     <div>
 
                         <div className="w-110 h-110 rounded-full overflow-hidden">
-                            <img src="/Img2.jpeg" alt="Profile" className="w-full h-full object-cover transition-all duration-700 hover:scale-105" />
+                            <img src="/profile.jpeg" alt="Profile" className="w-full h-full object-cover transition-all duration-700 hover:scale-105" />
                         </div>
 
                     </div>
