@@ -31,7 +31,7 @@ export default function Navbar() {
     return (
 
         <nav className={`fixed top-0 left-0 w-full z-50 bg-zinc-950/70 backdrop-blur-sm flex flex-row items-center justify-between 
-                border-b border-zinc-800 transition-transform duration-300 ${show ? "translate-y-0" : "-translate-y-full"}`}>
+                border-b border-zinc-900 transition-transform duration-300 ${show ? "translate-y-0" : "-translate-y-full"}`}>
 
             <div className="flex flex-row order-1 items-center gap-6">
                 <img src="/favicon.ico" className="h-15 w-15" />
