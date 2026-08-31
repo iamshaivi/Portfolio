@@ -17,7 +17,7 @@ export default function certificate() {
 
     //Filter
     const filteredCertificates =
-        selectedCategory === "All"
+        selectedCategory === "All" 
             ? certificates
             : certificates.filter(
                 (certificate) => certificate.category === selectedCategory

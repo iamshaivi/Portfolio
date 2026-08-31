@@ -21,7 +21,7 @@ export const certificates = [
     issued: "November 2025",
     credentialId: "NA",
     skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -33,7 +33,7 @@ export const certificates = [
     issued: "March 2026",
     credentialId: "CEMI0071",
     skills: ["Data Science" , "Data Analysis" , "Statistical Analysis" , "Machine Learning Fundamentals" , "Critical Thinking" , "Data Interpretation"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -45,7 +45,7 @@ export const certificates = [
     issued: "June 2026",
     credentialId: "NA",
     skills: ["Virtualization", "Distributed Systems" , "Digital Transformation" , "Cloud Services" , "Cloud Infrastructure"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "https://verify.onwingspan.com",
   },
 
@@ -57,7 +57,7 @@ export const certificates = [
     issued: "March 2026",
     credentialId: "IX-202600PB423",
     skills: ["Prompt Engineering" , "Critical Thinking" , "Open Innovation"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -69,7 +69,7 @@ export const certificates = [
     issued: " May 2026",
     credentialId: "NA",
     skills: ["Web Scraping" , "Data Cleaning" , "Data Collection" , "Data Extraction" , "Research Skills"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -81,7 +81,7 @@ export const certificates = [
     issued: "Febuary 2026",
     credentialId: "NA",
     skills: ["Natural Language Processing (NLP)" , "AI Agents" , "Machine Learning" , "Artificial Intelligence (AI)" , "Search Algorithms"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -93,7 +93,7 @@ export const certificates = [
     issued: "Janaury 2026",
     credentialId: "25OCT25/LFO/LAW/A332",
     skills: ["Constitutional Rights", "Legal Awareness"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -105,7 +105,7 @@ export const certificates = [
     issued: "Febuary 2026",
     credentialId: "NA",
     skills: ["SQL", "Tableau", "R", "Data Analysis"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -117,7 +117,7 @@ export const certificates = [
     issued: "Febuary 2026",
     credentialId: "NA",
     skills: ["SQL", "Tableau", "R", "Data Analysis"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -141,7 +141,7 @@ export const certificates = [
     issued: "Febuary 2026",
     credentialId: "NA",
     skills: ["SQL", "Tableau", "R", "Data Analysis"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 
@@ -153,7 +153,7 @@ export const certificates = [
     issued: "Febuary 2026",
     credentialId: "NA",
     skills: ["SQL", "Tableau", "R", "Data Analysis"],
-    image: "/img.jpg",
+    image: "/Img.jpg",
     verifyLink: "#",
   },
 ];
