@@ -63,9 +63,9 @@ export default function Home() {
                         </div>
 
                         <div className="order-1 flex flex-row space-x-6 mt-6 pb-6 items-center border-b border-zinc-900 border-0">
-                            <a href="/resume.pdf" download className="text-2xl text-black font-semibold border-1 rounded-full shadow-md border-gray-200 bg-gray-200 px-4 py-2 justify-center hover:border-gray-200 hover:bg-gray-200 hover:shadow-lg hover:shadow-gray-600/35 transition-transform duration-800 ease-in-out hover:scale-105">Resume</a>
-                            <a href="contact-me" className="text-2xl font-semibold text-white border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 shadow-md hover:border-zinc-700 hover:bg-zinc-950 transition-all duration-500 ease-in-out hover:scale-102">Contact</a>
-                            <a href="Projects" className="text-2xl font-semibold text-white border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 shadow-md hover:border-zinc-700 hover:bg-zinc-950 transition-all duration-500 ease-in-out hover:scale-102">Projects</a>
+                            <a href="/CV.pdf" download className="text-2xl text-black font-semibold border-1 rounded-full shadow-md border-gray-200 bg-gray-200 px-4 py-2 justify-center hover:border-gray-200 hover:bg-gray-200 hover:shadow-lg hover:shadow-gray-600/35 transition-transform duration-800 ease-in-out hover:scale-105">Resume</a>
+                            <a href="#Contact" className="text-2xl font-semibold text-white border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 shadow-md hover:border-zinc-700 hover:bg-zinc-950 transition-all duration-500 ease-in-out hover:scale-102">Contact</a>
+                            <a href="#Projects" className="text-2xl font-semibold text-white border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 shadow-md hover:border-zinc-700 hover:bg-zinc-950 transition-all duration-500 ease-in-out hover:scale-102">Projects</a>
                         </div>
 
                         <div className="order-1 flex flex-row space-x-6 mt-6 items-center">

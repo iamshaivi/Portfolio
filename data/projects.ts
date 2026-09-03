@@ -4,77 +4,34 @@ export const projectsCategories = [
   "AI & ML",
   "DS & Analytics",
   "Cloud",
+  "Front-End",
   "Others",
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
+    title: "Portfolio",
+    category: "Front-End", 
+    skills: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    image: "/1.png",
+    GithubRepo: "https://github.com/iamshaivi/Portfolio",
+    verifyLink: "https://portfolio-six-delta-lgzrai3how.vercel.app",
   },
 
   {
     id: 2,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
+    title: "Smart IoT-Based Kitchen Drain Monitoring for Grease Prevention ",
+    category: "Others",
+    skills: ["IoT", "ESP32", "Embedded C/C++", "Arduino IDE", "Wokwi Simulator", "Sensors",],
+    image: "/ece.png",
   },
 
   {
     id: 3,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
-  },
-
-  {
-    id: 4,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
-  },
-
-  {
-    id: 5,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
-  },
-
-  {
-    id: 6,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
-  },
-  
-  {
-    id: 7,
-    title: "Advanced Power BI",
-    category: "Workshops",
-    skills: ["Advanced Power BI", "Data Visualization", "Dashboard Building", "Data Analytics", "Data Modeling"],
-    image: "/Img.jpg",
-    GithubRepo: "#",
-    verifyLink: "#",
+    title: "Community Development Project",
+    category: "Others",
+    skills: ["Leadership", "Community Engagement", "Initiative & Collaboration", "Social Service", "Team Work"],
+    image: "/ptoi.jpeg",
   },
 ];
