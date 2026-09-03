@@ -4,8 +4,8 @@ export default function about() {
             <div id="About Me" className="flex flex-row mx-10 px-10 py-10 min-h-fit gap-10 border-b border-zinc-900 border-0">
 
                 {/*Img*/}
-                <div className="flex flex-1 border-0">
-                    <img src="Img.jpg" alt="Image" className="rounded-4xl" />
+                <div className="flex flex-1 border-0 h-130">
+                    <img src="/e.jpg" alt="Image" className="rounded-4xl" />
                 </div>
 
                 {/*hello+%about me=%geducation+%degree+%Major*/}

@@ -17,7 +17,7 @@ export default function certificate() {
 
     //Filter
     const filteredCertificates =
-        selectedCategory === "All" 
+        selectedCategory === "All"
             ? certificates
             : certificates.filter(
                 (certificate) => certificate.category === selectedCategory
@@ -40,7 +40,7 @@ export default function certificate() {
     });
 
     return (
-        <div id="Certificates" className="relative z-40 bg-zinc-950 flex flex-col border-0 border-b border-zinc-900 items-center justify-center py-20">
+        <div id="Certificates" className="relative z-40 bg-zinc-950 flex flex-col border-0 border-b border-zinc-900 items-center justify-center py-20 m-5">
             <h2 className=" text-6xl font-bold text-gray-200 text-shadow-xs text-shadow-gray-100 mb-12 transition-transform duration-800 hover:scale-102">Certificates</h2>
 
             <div className="flex flex-row h-full gap-4 pb-4 mb-8 border-0">
@@ -124,10 +124,16 @@ export default function certificate() {
 
                                         </div>
 
-                                        <a href={certificate.verifyLink}
-                                            className="inline-block border border-zinc-800 rounded-lg px-4 py-2 hover:bg-white hover:text-black transition">
-                                            Verify ↗
-                                        </a>
+                                        {certificate.verifyLink && (
+                                            <a
+                                                href={certificate.verifyLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-zinc-800 rounded-lg px-4 py-2 hover:bg-white hover:text-black transition"
+                                            >
+                                                Verify ↗
+                                            </a>
+                                        )}
 
                                     </div>
                                 </div>

@@ -34,7 +34,6 @@ export const certificates = [
     credentialId: "CEMI0071",
     skills: ["Data Science" , "Data Analysis" , "Statistical Analysis" , "Machine Learning Fundamentals" , "Critical Thinking" , "Data Interpretation"],
     image: "/mm.png",
-    verifyLink: "#",
   },
 
   {
@@ -58,7 +57,6 @@ export const certificates = [
     credentialId: "IX-202600PB423",
     skills: ["Prompt Engineering" , "Critical Thinking" , "Open Innovation"],
     image: "/pb.jpg",
-    verifyLink: "#",
   },
 
   {
@@ -70,7 +68,6 @@ export const certificates = [
     credentialId: "NA",
     skills: ["Web Scraping" , "Data Cleaning" , "Data Collection" , "Data Extraction" , "Research Skills"],
     image: "/web.png",
-    verifyLink: "#",
   },
 
   {
@@ -82,7 +79,6 @@ export const certificates = [
     credentialId: "NA",
     skills: ["Natural Language Processing (NLP)" , "AI Agents" , "Machine Learning" , "Artificial Intelligence (AI)" , "Search Algorithms"],
     image: "/aisy.png",
-    verifyLink: "#",
   },
 
   {
@@ -94,7 +90,6 @@ export const certificates = [
     credentialId: "25OCT25/LFO/LAW/A332",
     skills: ["Constitutional Rights", "Legal Awareness"],
     image: "/law.png",
-    verifyLink: "#",
   },
 
   {

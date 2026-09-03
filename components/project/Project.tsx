@@ -77,7 +77,7 @@ export default function Projects() {
             </div>
 
             {/* Cards */}
-            <div className="grid grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-3 gap-8 items-start m-5">
 
                 {projectColumns.map((column, columnIndex) => (
 
@@ -98,7 +98,7 @@ export default function Projects() {
 
                                 <div className={`overflow-hidden transition-[max-height,opacity] duration-700 ease-in-out
                                             ${openProjectIndex === index
-                                        ? "max-h-95   opacity-100 mt-6"
+                                        ? "max-h-[700px] opacity-100 mt-6"
                                         : "max-h-0 opacity-0"
                                     }`}>
 
@@ -109,6 +109,10 @@ export default function Projects() {
                                             <span>{project.category}</span>
                                         </div>
 
+                                        <p className="text-sm leading-6 text-zinc-300 mt-4">
+                                            {project.description}
+                                        </p>
+
                                         <div className="flex justify-between gap-2">
                                             <span className="text-zinc-500">Skills</span>
                                             <span>
@@ -118,19 +122,32 @@ export default function Projects() {
 
                                         </div>
 
-                                        <div className="flex flex-row gap-35">
-                                            <a href={project.GithubRepo}
-                                                target="_blank"
-                                                className="inline-block justify-start border border-zinc-800 rounded-lg px-4 py-2 ml-3 hover:bg-white hover:text-black transition">
-                                                View Repository
-                                            </a>
+                                        <div className="flex flex-row gap-4 mt-4">
+                                            <div className="mr-32">
+                                                {project.GithubRepo && (
+                                                    <a
+                                                        href={project.GithubRepo}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-block border border-zinc-800 rounded-lg px-4 py-2 hover:bg-white hover:text-black transition"
+                                                    >
+                                                        View Repository
+                                                    </a>
+                                                )}
+                                            </div>
 
-
-                                            <a href={project.verifyLink}
-                                                target="_blank"
-                                                className="inline-block justify-end border border-zinc-800 rounded-lg px-4 py-2 ml-3 hover:bg-white hover:text-black transition">
-                                                Live Demo ↗
-                                            </a>
+                                            <div className="">
+                                                {project.verifyLink && (
+                                                    <a
+                                                        href={project.verifyLink}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-block border border-zinc-800 rounded-lg px-4 py-2 hover:bg-white hover:text-black transition"
+                                                    >
+                                                        Live Demo ↗
+                                                    </a>
+                                                )}
+                                            </div>
                                         </div>
 
                                     </div>
