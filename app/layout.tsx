@@ -6,7 +6,9 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import About from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
-import Dev from "@/components/dev/Dev";
+/*import Dev from "@/components/dev/Dev";*/
+import Ln from "@/components/dev/ln";
+/*import Blog from "@/components/blog/Blog";*/
 import Projects from "@/components/project/Project";
 import Certificates from "@/components/certificate/Certificate";
 import Contact from "@/components/contact/Contact";
@@ -39,7 +41,9 @@ export default function RootLayout({
         {children}
         <About />
         <Skills />
-        <Dev />
+        {/*<Dev />*/}
+        <Ln />
+        {/*<Blog/>*/}
         <Projects />
         <Certificates />
         <Contact />

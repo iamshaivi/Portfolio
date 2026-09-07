@@ -51,7 +51,7 @@ export default function Home() {
 
                         <div className="order-1 flex flex-col space-x-6 mt-6 items-left">
 
-                            <div className="flex w-50 gap-4 border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 mb-2 shadow-lg shadow-zinc-700/20">
+                            <div className="flex w-50 gap-4 border border-zinc-900 bg-zinc-950 rounded-full px-4 py-2 mb-2 shadow-xl shadow-zinc-700/20">
                                 <h1 className="text-xl text-zinc-200">Open to Internship</h1>
                             </div>
 
